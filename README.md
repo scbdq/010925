@@ -1,1 +1,3 @@
-# 010925
+forensic-[a...i] — tasks
+task-generatos — setup challenges
+
