@@ -1,0 +1,77 @@
+
+movl $7, %eax
+imull $17, %eax
+subl $1, %eax
+movb %al, 0(%rdi)
+
+movl $12, %eax
+imull $10, %eax
+subl $5, %eax
+movb %al, 1(%rdi)
+
+movl $37, %eax
+imull $3, %eax
+movb %al, 2(%rdi)
+
+movl $300, %eax
+shrl $1, %eax
+subl $35, %eax
+movb %al, 3(%rdi)
+
+movl $13, %eax
+shll $3, %eax
+movb %al, 4(%rdi)
+
+movl $41, %eax
+imull $3, %eax
+movb %al, 5(%rdi)
+
+movl $15, %eax
+imull $7, %eax
+movb %al, 6(%rdi)
+
+movl $400, %eax
+shrl $2, %eax
+subl $5, %eax
+movb %al, 7(%rdi)
+
+movl $27, %eax
+imull $4, %eax
+movb %al, 8(%rdi)
+
+movl $6, %eax
+shll $3, %eax
+movb %al, 9(%rdi)
+
+movl $7, %eax
+imull $17, %eax
+subl $1, %eax
+movb %al, 10(%rdi)
+
+movl $17, %eax
+imull $3, %eax
+movb %al, 11(%rdi)
+
+movl $20, %eax
+imull $5, %eax
+subl $5, %eax
+movb %al, 12(%rdi)
+
+movl $13, %eax
+imull $4, %eax
+movb %al, 13(%rdi)
+
+movl $230, %eax
+shrl $1, %eax
+movb %al, 14(%rdi)
+
+movl $11, %eax
+imull $10, %eax
+subl $1, %eax
+movb %al, 15(%rdi)
+
+movl $250, %eax
+shrl $1, %eax
+movb %al, 16(%rdi)
+
+movb $0, 17(%rdi)
